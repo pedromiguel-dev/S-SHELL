@@ -1,4 +1,17 @@
 ## Assignment 1: Simple Shell Implementation in C
+### Tasks
+- [x] main loop
+- [x] read input and parse
+- [ ] execute commands
+- [ ] exit
+
+### Dependencies
+* gcc
+
+### How to run
+1. run `$ make`
+3. run `$ ./casm`
+
 ### Requirements:
 
 * Implement a basic shell program in C that supports command-line input.
@@ -11,7 +24,7 @@
 
    * Do not use external libraries for parsing commands; implement your own parsing logic.
    *	Limit the use of global variables; prefer passing parameters between functions.
-    * Do not use high-level language features that abstract away low-level details.
+   * Do not use high-level language features that abstract away low-level details.
 
 ### Submission Guidelines:
 
